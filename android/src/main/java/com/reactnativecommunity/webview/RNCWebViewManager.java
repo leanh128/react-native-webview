@@ -791,7 +791,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
           mVideoView = view;
           mCustomViewCallback = callback;
 
-          activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+          // activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
 
           if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             mVideoView.setSystemUiVisibility(FULLSCREEN_SYSTEM_UI_VISIBILITY);
